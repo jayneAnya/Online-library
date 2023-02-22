@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PioneerOnlineLibrary.API\PioneerOnlineLibrary.API.csproj" />
+    <ProjectReference Include="..\PioneerOnlineLibrary.Core\PioneerOnlineLibrary.Core.csproj" />
+    <ProjectReference Include="..\PioneerOnlineLibrary.Domain\PioneerOnlineLibrary.Domain.csproj" />
+    <ProjectReference Include="..\PioneerOnlineLibrary.Helpers\PioneerOnlineLibrary.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>

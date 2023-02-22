@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PioneerOnlineLibrary.API", "PioneerOnlineLibrary.API\PioneerOnlineLibrary.API.csproj", "{794F7333-45C4-40CF-835E-7AF590860373}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PioneerOnlineLibrary.Core", "PioneerOnlineLibrary.Core\PioneerOnlineLibrary.Core.csproj", "{9074CC77-523D-460F-9885-0285CB202C5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PioneerOnlineLibrary.Infrastructure", "PioneerOnlineLibrary.Infrastructure\PioneerOnlineLibrary.Infrastructure.csproj", "{9E6EE7F8-14D8-4610-95FE-CC99825AB53E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PioneerOnlineLibrary.Domain", "PioneerOnlineLibrary.Domain\PioneerOnlineLibrary.Domain.csproj", "{1AC65599-5E37-4A66-8B81-01FD4EF9B8C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PioneerOnlineLibrary.Helpers", "PioneerOnlineLibrary.Helpers\PioneerOnlineLibrary.Helpers.csproj", "{9EA09713-E124-4BBC-95C5-923860E3A7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerOnlineLibrary.MVC", "PioneerOnlineLibrary.MVC\PioneerOnlineLibrary.MVC.csproj", "{74B3B129-A31F-4431-8845-5CDFFE9B181C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{794F7333-45C4-40CF-835E-7AF590860373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794F7333-45C4-40CF-835E-7AF590860373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794F7333-45C4-40CF-835E-7AF590860373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794F7333-45C4-40CF-835E-7AF590860373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9074CC77-523D-460F-9885-0285CB202C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9074CC77-523D-460F-9885-0285CB202C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9074CC77-523D-460F-9885-0285CB202C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9074CC77-523D-460F-9885-0285CB202C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6EE7F8-14D8-4610-95FE-CC99825AB53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6EE7F8-14D8-4610-95FE-CC99825AB53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6EE7F8-14D8-4610-95FE-CC99825AB53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6EE7F8-14D8-4610-95FE-CC99825AB53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC65599-5E37-4A66-8B81-01FD4EF9B8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC65599-5E37-4A66-8B81-01FD4EF9B8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC65599-5E37-4A66-8B81-01FD4EF9B8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC65599-5E37-4A66-8B81-01FD4EF9B8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA09713-E124-4BBC-95C5-923860E3A7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA09713-E124-4BBC-95C5-923860E3A7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA09713-E124-4BBC-95C5-923860E3A7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA09713-E124-4BBC-95C5-923860E3A7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B3B129-A31F-4431-8845-5CDFFE9B181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B3B129-A31F-4431-8845-5CDFFE9B181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B3B129-A31F-4431-8845-5CDFFE9B181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B3B129-A31F-4431-8845-5CDFFE9B181C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2E2389D-15FF-4447-86EB-35F838972390}
+	EndGlobalSection
+EndGlobal
